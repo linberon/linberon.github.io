@@ -3,7 +3,7 @@
 }
 
 body, html{
-	height: 100%;	
+	height: 100%;
 }
 
 #cover-page{
@@ -20,15 +20,19 @@ nav{
 	padding: 5px 20px 5px 20px;
 	position: fixed;
 	background-color: white;
-	font-family: "Playfair Display", serif;
- 	color: black;
  	font-size: 3vh;
 }
 
  #logo{
+ 	font-family: "Playfair Display", serif;
  	width: 50%;
  	margin: 0;
  	float: left;
+ }
+
+ #navbar{
+ 	font-family: "Playfair Display", serif;
+	color: black;
  }
 
 ul{
@@ -36,16 +40,10 @@ ul{
 	margin: 0;
 	padding: 0;
 	float: right;
-
 }
 
 li{
 	display: inline-block;
-}
-
-a{
-	text-decoration: none;
-    color: black;
 }
 
 li ::before {
@@ -54,3 +52,104 @@ li ::before {
  	margin-left: 2vw;
  	margin-right: 2vw;
  }
+
+ a{
+ 	font-family: "Lato", sans-serif;
+	text-decoration: none;
+    color: black;
+}
+
+#about{
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+	padding: 4vw 6vw 4vw 6vw;
+}
+
+h1{
+	font-family: "Playfair Display", serif;
+	text-align: center;
+	margin-top: 0; 
+	margin-bottom: 5vh;
+}
+
+h3, p, footer, form{
+	font-family: "Lato", sans-serif;
+}
+
+#portrait{
+	height: 20vw;
+	float: right;
+	border: 1px solid #bdb3e5;
+}
+
+#portfolio{
+	width: 100%;
+	height: 100vh;
+	background-color: #252525;
+	color: white;
+	padding: 4vw 6vw 4vw 6vw;
+}
+
+#contact{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	padding: 4vw 8vw 4vw 8vw;
+	background-image: url(contact-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#form-container{
+	margin: 5vh;
+	padding: 5vh;
+	background-color: white;	
+}
+
+form{
+	display: inline-block;
+	text-align: center;
+}
+
+.text-field{
+	width: 40vw;
+	display: block;
+	margin: 10px 0px 10px 0px;
+}
+
+#message{
+	height: 20vh;
+}
+
+.social{
+	height: 3vw;
+	width: 3vw;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer{
+	padding: 3px;
+}
+
+.send-message{
+	background-color: #bdb3e5;
+	border: none;
+	font-family: "Lato", sans-serif;
+	padding: 8px;
+	color:#484650;
+	
+}
+
+.send-message:hover{
+	opacity: 0.7;
+}
