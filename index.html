@@ -16,10 +16,13 @@
 	<nav>
 		<p id="logo">Katalin Beron</p>
 
-		<ul>
-			<li><a id="navbar" href="#about">About</a></li>
-			<li><a id="navbar" href="#portfolio">Portfolio</a></li>
-			<li><a id="navbar" href="#contact">Contact</a></li>
+		<label for="menu" class="menu">&#9776</label>
+		<input type="checkbox" id="menu" role="button">
+
+		<ul id="dropdown">
+			<li><a class="navbar" href="#about">About</a></li>
+			<li><a class="navbar" href="#portfolio">Portfolio</a></li>
+			<li><a class="navbar" href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 
@@ -41,34 +44,77 @@
 	<div id="portfolio">
 		<h1>Projects</h1>
 
-		<div>
-			<h3>Project1</h3>
-			<div class="thumbnail"></div>
+		<div class="row">
+		<div class="col-6">
+
+		<div class="project">
+			<img class="thumbnail" src="thumbs/finn.png">
+			<h4>Finnish Language Quiz</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			<a href="#">GitHub</a>
 			<a href="#">Live Demo</a>
 		</div>
 
-		<div>
-			<h3>Project2</h3>
-			<div class="thumbnail"></div>
+		</div>
+
+		<div class="col-6">
+
+		<div class="project">
+			<img class="thumbnail" src="thumbs/shopping.png">
+			<h4>Shopping List</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			<a href="#">GitHub</a>
 			<a href="#">Live Demo</a>
 		</div>
 
-		<div>
-			<h3>Project3</h3>
-			<div class="thumbnail"></div>
+		</div>
+		</div>
+
+		<div class="row">
+		<div class="col-6">
+
+		<div class="project">
+			<img class="thumbnail" src="thumbs/responsive.png">
+			<h4>Responsive Challenge</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			<a href="#">GitHub</a>
 			<a href="#">Live Demo</a>
 		</div>
 
-		<div class="illustration">
-			<h3>Illustration</h3>
+		</div>
+
+		<div class="col-6">
+
+		<div class="project">
+			<img class="thumbnail" src="thumbs/text.png">
+			<h4>Text Analyzer</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			<div class="illu-thumbnails">
+			<a href="#">GitHub</a>
+			<a href="#">Live Demo</a>
+		</div>
+
+		</div>
+		</div>
+
+		<div class="row">
+		<div class="col-6">
+
+		<div class="project">
+			<img class="thumbnail" src="thumbs/tube.png">
+			<h4>Thinkful Tube</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<a href="#">GitHub</a>
+			<a href="#">Live Demo</a>
+		</div>
+
+		</div>
+
+		<div class="col-6">
+
+		<div class="project illustration">
+			<h4>Illustration</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<div class="illu-thumbs">
 				<img src="#">
 				<img src="#">
 				<img src="">
@@ -76,8 +122,10 @@
 			</div>
 		</div>
 
-	</div>
+		</div>
+		</div>
 
+	</div>
 
 	<div id="contact">
 		<div id="form-container">
@@ -103,11 +151,13 @@
 				<button class="social" id="adobe"></button>
 			</div>
 
+	<footer>© Katalin Beron 2018</footer>
+	
 	</div>
 </main>
 
 
-<footer>© Katalin Beron 2018</footer>
+
 
 </body>
 </html>
