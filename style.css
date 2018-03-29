@@ -84,7 +84,7 @@ form {
 }
 
 #portrait {
-	width: 20%;
+	width: 25%;
 	float: right;
 	border: 1px solid #bdb3e5;
 	margin-left: 10px;
@@ -135,7 +135,7 @@ h4,
 #contact {
 	text-align: center;
 	width: 100%;
-	padding: 4vw 8vw 4vw 8vw;
+	padding: 8vw 8vw 1vw 8vw;
 	background-image: url(contact-bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -144,9 +144,12 @@ h4,
 }
 
 #form-container {
-	margin: 5vh;
+	width: 80%;
+	margin-bottom: 5vh;
 	padding: 5vh;
 	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 form {
@@ -157,9 +160,11 @@ form {
 .text-field {
 	width: 40vw;
 	display: block;
-	margin: 10px 0px 10px 0px;
+	margin: 10px;
 	border: none;
 	background-color: #eeeaff;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .fa {
@@ -173,10 +178,6 @@ form {
 	content: "";
 	clear: both;
 	display: table;
-}
-
-footer {
-	padding: 3px;
 }
 
 .send-message {
@@ -229,7 +230,8 @@ input[type="checkbox"]:checked ~ #dropdown {
 }
 
 footer {
-	margin-top: 40px;
-	color: #ffffff;
-	opacity: 0.7;
+	padding: 3px;
+	margin-top: 60px;
+	color: white;
+	opacity: 0.6;
 }
