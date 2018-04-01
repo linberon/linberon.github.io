@@ -124,7 +124,7 @@ h4,
 
 #art {
 	width: 100%;
-	background-color: #eeeaff;
+	background-color: white;
 	padding: 4vw 6vw 4vw 6vw;
 }
 
@@ -135,7 +135,7 @@ h4,
 #contact {
 	text-align: center;
 	width: 100%;
-	padding: 8vw 8vw 1vw 8vw;
+	padding: 4vw 6vw 1vw 6vw;
 	background-image: url(contact-bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -146,10 +146,9 @@ h4,
 #form-container {
 	width: 80%;
 	margin-bottom: 5vh;
-	padding: 5vh;
-	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
+	color: white;
 }
 
 form {
@@ -190,7 +189,7 @@ form {
 }
 
 .send-message:hover {
-	opacity: 0.7;
+	opacity: 0.8;
 	cursor: pointer;
 }
 
