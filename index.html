@@ -20,14 +20,15 @@
 		<label for="menu" class="menu">&#9776</label>
 		<input type="checkbox" id="menu" role="button">
 
-		<ul id="dropdown">
+		<ul id="navbar-options">
+			<li><a class="navbar" href="#home">Home</a></li>
 			<li><a class="navbar" href="#about">About</a></li>
 			<li><a class="navbar" href="#portfolio">Portfolio</a></li>
 			<li><a class="navbar" href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 
-	<div id="cover-page"></div>
+	<div id="home"></div>
 
 </head>	
 
@@ -50,7 +51,8 @@
 </div>
 
 
-	<div id="portfolio">
+<div id="portfolio">
+	<div id="web">
 		<h1>Projects</h1>
 
 		<div class="row">
@@ -128,7 +130,7 @@
 
 		</div>
 		</div>
-	
+	</div>
 	</div>
 
 	<div id="art">
@@ -146,9 +148,8 @@
 		</div>
 
 		</div>
-		</div>
-
 	</div>
+</div>
 
 
 <div id="contact">
@@ -157,15 +158,19 @@
 			<h1>Contact me</h1>
 			<p>Let's work together!</p>
 
-
-
-			<form id="contactForm" action="mailer.php" method="post">
+			<form id="contactForm" action="https://mailthis.to/katalinberon" method="POST" enctype="multipart/form-data">
 			
-				<textarea rows="1" class="text-field" id="name" placeholder="Name" required></textarea>
+				<input class="text-field" id="name" type="text" name="name" placeholder="Name" required></input>
 
-				<textarea rows="1" class="text-field" id="email" placeholder="Email" required></textarea>
+				<input class="text-field" id="email" name="_replyto" placeholder="Email" required></input>
 
-				<textarea rows="10" class="text-field" id="message" placeholder="Your message here" required></textarea>
+				<textarea rows="10" class="text-field" id="message" name="message" placeholder="Your message here" required></textarea>
+
+				<input type="hidden" name="_subject" value="Message from my homepage">
+
+    			<input type="hidden" name="_honeypot" value="">
+
+    			<input type="hidden" name="_confirmation" value="Your message has been sent! I'll be in touch soon.">
 
 				<button class="send-message" type="submit">Send message</button>
 
@@ -184,7 +189,7 @@
 	</div>
 </main>
 
-	<script src="jquery-2.1.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
 	<script src="app.js"></script>
 
 </body>
