@@ -2,7 +2,7 @@
 document.getElementById("contactForm").reset();
 
 //smooth scroll
-$(".navbar").click(function() {
+$(".navbar").click(function(e) {
 	event.preventDefault();
 	$("html, body").animate(
 		{
