@@ -96,6 +96,11 @@ form {
 	padding: 4vw 6vw 4vw 6vw;
 }
 
+.wrap {
+	display: flex;
+  flex-wrap: wrap;
+}
+
 .content a {
 	font-family: "Lato", sans-serif;
 	padding-right: 10px;
@@ -110,16 +115,22 @@ form {
 	background-color: #171717;
 	color: white;
 	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
 }
 
 h4,
-.content > p {
+.content > div {
 	margin-top: 0px;
 	color: #adacac;
 }
 
 .content {
 	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+	justify-content: space-between;
 }
 
 #art {
