@@ -7,6 +7,14 @@ html {
 	height: 100%;
 }
 
+.flex {
+	display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
 #home {
 	background-image: url(portfolio-cover.jpg);
 	height: 100%;
@@ -63,7 +71,6 @@ a:hover {
 }
 
 #about {
-	width: 100%;
 	background-color: white;
 	padding: 4vw 6vw 4vw 6vw;
 }
@@ -82,11 +89,13 @@ form {
 	font-family: "Lato", sans-serif;
 }
 
+.about-text {
+	margin-top: 0;
+}
+
 #portrait {
-	width: 25%;
-	float: right;
-	margin-left: 10px;
-	margin-bottom: 10px;
+	width: 100%;
+	max-width: 250px;
 }
 
 #portfolio {
@@ -94,11 +103,6 @@ form {
 	background-color: #252525;
 	color: white;
 	padding: 4vw 6vw 4vw 6vw;
-}
-
-.wrap {
-	display: flex;
-  flex-wrap: wrap;
 }
 
 .content a {
@@ -115,19 +119,18 @@ form {
 	background-color: #171717;
 	color: white;
 	margin-bottom: 20px;
-	display: flex;
 	flex-direction: column;
 }
 
 h4,
-.content > div {
+.content > div,
+.content > p {
 	margin-top: 0px;
 	color: #adacac;
 }
 
 .content {
 	padding: 10px;
-	display: flex;
 	flex-direction: column;
 	flex: 1 1 auto;
 	justify-content: space-between;
