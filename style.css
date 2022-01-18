@@ -26,21 +26,26 @@ html {
 
 nav {
 	width: 100%;
-	padding: 5px 20px 5px 20px;
+	padding: 10px 20px;
 	position: fixed;
 	background-image: linear-gradient(to right, #EEE0ED , #C7B8DE);
 	font-size: 20px;
 	z-index: 99;
+	display: flex;
+	align-items: center;
 }
 
 #logo {
-	font-family: "Playfair Display", serif;
-	margin: 0;
+	font-family: "Bodoni Moda", serif;
+	font-size: 20px;
+	margin: auto;
+	left: 0;
+	right: 0;
 	text-align: center;
 }
 
 .navbar {
-	font-family: "Playfair Display", serif;
+	font-family: "Bodoni Moda", serif;
 	color: black;
 }
 
@@ -70,34 +75,34 @@ a:hover {
 	opacity: 0.5;
 }
 
-#about {
+#about, 
+#portfolio {
 	background-color: #FFFCF5;
 }
 
 h1 {
-	font-family: "Playfair Display", serif;
+	font-family: "Bodoni Moda", serif;
 	text-align: center;
 	margin-top: 0;
-	margin-bottom: 5vh;
 }
 
 h3,
 p,
 footer,
 form {
-	font-family: "Lato", sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 
-#portfolio {
-	width: 100%;
-	background-color: #FFFCF5;
-	color: black;
-	padding: 4vw 6vw 4vw 6vw;
+.vertical-line {
+		border-left: 2px solid black;
+		height: 80px;
+		left: 0;
+		right: 0;
+		margin-left: 50%;
 }
-
 
 .content a {
-	font-family: "Lato", sans-serif;
+	font-family: "Raleway", sans-serif;
 	padding-right: 10px;
 	color: white;
 }
@@ -173,7 +178,7 @@ form {
 .send-message {
 	background-color: #bdb3e5;
 	border: none;
-	font-family: "Lato", sans-serif;
+	font-family: "Raleway", sans-serif;
 	padding: 8px;
 	color: #484650;
 	margin-top: 10px;
