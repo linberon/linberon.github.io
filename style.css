@@ -36,7 +36,7 @@ nav {
 #logo {
 	font-family: "Playfair Display", serif;
 	margin: 0;
-	float: left;
+	text-align: center;
 }
 
 .navbar {
@@ -86,15 +86,6 @@ p,
 footer,
 form {
 	font-family: "Lato", sans-serif;
-}
-
-.about-text {
-	margin-top: 0;
-}
-
-#portrait {
-	width: 100%;
-	max-width: 250px;
 }
 
 #portfolio {

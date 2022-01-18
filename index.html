@@ -219,10 +219,10 @@
 	<div class="row">
 		<div class="col-12">
 				<div class="col-9">
-					<p class="about-text">Designer coming from a Graphic Art and Front End Engineer background. My aim is to join my different skillsets together, and create beautiful experiences for the web. <br><br>I'm excited about exploring the possibilities in UI/UX design, and getting familiar with more technologies. I'm always curious about new ideas and opportunities, and passionate about learning! <br><br>Currently London based.</p>
+					<p>Designer coming from a Graphic Art and Front End Engineer background. My aim is to join my different skillsets together, and create beautiful experiences for the web. <br><br>I'm excited about exploring the possibilities in UI/UX design, and getting familiar with more technologies. I'm always curious about new ideas and opportunities, and passionate about learning! <br><br>Currently London based.</p>
 				</div>
 			<div class="col-3">
-				<img id="portrait" src="portrait.jpg" alt="portrait photo">
+				<img id="David-head" src="David_head.svg" alt="Haltone image of the David statue's head by Michelangelo">
 			</div>
 		</div>
 	</div>
@@ -230,30 +230,26 @@
 <div id="contact">
 	<div id="form-container">
 
-			<h1>Contact me</h1>
-			<p>Let's work together!</p>
+		<form id="contactForm" action="https://mailthis.to/katalinberon" method="POST" enctype="multipart/form-data">			
+			<input class="text-field" id="name" type="text" name="name" placeholder="Name" required></input>
+			<input class="text-field" id="email" name="_replyto" placeholder="Email" required></input>
+			<textarea rows="10" class="text-field" id="message" name="message" placeholder="Your message here" required></textarea>
+			<input type="hidden" name="_subject" value="Message from my homepage">
+			<input type="hidden" name="_honeypot" value="">
+			<input type="hidden" name="_confirmation" value="Your message has been sent! I'll be in touch soon.">
+			<button class="send-message" type="submit">Send message</button>
+		</form>
 
-			<form id="contactForm" action="https://mailthis.to/katalinberon" method="POST" enctype="multipart/form-data">			
-				<input class="text-field" id="name" type="text" name="name" placeholder="Name" required></input>
-				<input class="text-field" id="email" name="_replyto" placeholder="Email" required></input>
-				<textarea rows="10" class="text-field" id="message" name="message" placeholder="Your message here" required></textarea>
-				<input type="hidden" name="_subject" value="Message from my homepage">
-    			<input type="hidden" name="_honeypot" value="">
-    			<input type="hidden" name="_confirmation" value="Your message has been sent! I'll be in touch soon.">
-				<button class="send-message" type="submit">Send message</button>
-			</form>
-
-		</div>
-
-			<div class="social-icons">
-				<a href="https://www.behance.net/linberon" class="fa fa-behance" target="_blank"></a>
-				<a href="https://linkedin.com/in/katalin-beron-284811160" class="fa fa-linkedin" target="_blank"></a>
-				<a href="https://github.com/linberon" class="fa fa-github" target="_blank"></a>
-			</div>
-
-	
 	</div>
-	<footer>© 2022 KATALIN BERON</footer>
+
+		<div class="social-icons">
+			<a href="https://www.behance.net/linberon" class="fa fa-behance" target="_blank"></a>
+			<a href="https://linkedin.com/in/katalin-beron-284811160" class="fa fa-linkedin" target="_blank"></a>
+			<a href="https://github.com/linberon" class="fa fa-github" target="_blank"></a>
+		</div>
+</div>
+
+<footer>© 2022 KATALIN BERON</footer>
 
 </main>
 
