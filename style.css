@@ -83,6 +83,7 @@ li ::before {
 a {
 	text-decoration: none;
 	color: black;
+	cursor: pointer;
 }
 
 /*a:hover {
@@ -239,7 +240,7 @@ input[type="checkbox"]:checked ~ #navbar-options {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
 	ul {
 		display: none;
 	}
@@ -269,16 +270,30 @@ input[type="checkbox"]:checked ~ #navbar-options {
 	}
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
 	#logo,
 	.project-title {
 		font-size: 18px;
 	}
+
+	.icon-arrow {
+		height: 1.5em;
+	}
 }
 
 footer {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
 	width: 100%;
-	padding: 5px 20px 5px 20px;
+	padding: 10px 20px;
 	background-color: #EEE0ED;
 	font-size: 14px;
+}
+
+/*Big screen only*/
+.copyright {
+	padding: .5em 1em;
+	margin: 0;
 }
