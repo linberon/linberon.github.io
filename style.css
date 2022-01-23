@@ -2,6 +2,19 @@
 	box-sizing: border-box;
 }
 
+
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {...}
+/* Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {...}
+/* Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {...}
+/* Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {...}
+/* Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {...} */
+
+
 body,
 html {
 	height: 100%;
@@ -131,6 +144,22 @@ form {
 	margin-left: 45px;
 }
 
+.project-header {
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.project-title {
+	font-family: Bodoni Moda, serif; 
+	font-size: 20px;
+	margin-bottom: 0.5em;
+}
+
+.icon-arrow {
+	height: 2em; 
+	align-self: flex-end;
+}
+
 .content {
 	padding: 10px;
 	flex-direction: column;
@@ -209,6 +238,7 @@ input[type="checkbox"]:checked ~ #navbar-options {
 	float: left;
 }
 
+
 @media screen and (max-width: 600px) {
 	ul {
 		display: none;
@@ -222,7 +252,11 @@ input[type="checkbox"]:checked ~ #navbar-options {
 
 	.project-left-col,
 	.project-right-col {
-		margin-right: 0;
+		margin: 45px 0 0 0;
+	}
+
+	.icon-arrow {
+		height: 1.5em;
 	}
 
 	.menu {
@@ -232,6 +266,13 @@ input[type="checkbox"]:checked ~ #navbar-options {
 
 	#home {
 		background-image: url(portfolio_bg_sm.png);
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#logo,
+	.project-title {
+		font-size: 18px;
 	}
 }
 
