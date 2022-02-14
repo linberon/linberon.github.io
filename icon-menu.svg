@@ -1,11 +1,11 @@
-<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="3.97059" cy="3.97059" r="3.97059" fill="black"/>
-<circle cx="22.5" cy="3.97059" r="3.97059" fill="black"/>
-<circle cx="41.0294" cy="3.97059" r="3.97059" fill="black"/>
-<circle cx="3.97059" cy="22.4999" r="3.97059" fill="black"/>
-<circle cx="22.5" cy="22.4999" r="3.97059" fill="black"/>
-<circle cx="41.0294" cy="22.4999" r="3.97059" fill="black"/>
-<circle cx="3.97059" cy="41.0295" r="3.97059" fill="black"/>
-<circle cx="22.5" cy="41.0295" r="3.97059" fill="black"/>
-<circle cx="41.0294" cy="41.0295" r="3.97059" fill="black"/>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="2.64706" cy="2.64706" r="2.64706" fill="#FFFCF5"/>
+<circle cx="15" cy="2.64706" r="2.64706" fill="#FFFCF5"/>
+<circle cx="27.3529" cy="2.64706" r="2.64706" fill="#FFFCF5"/>
+<circle cx="2.64706" cy="15.0001" r="2.64706" fill="#FFFCF5"/>
+<circle cx="15" cy="15.0001" r="2.64706" fill="#FFFCF5"/>
+<circle cx="27.3529" cy="15.0001" r="2.64706" fill="#FFFCF5"/>
+<circle cx="2.64706" cy="27.3529" r="2.64706" fill="#FFFCF5"/>
+<circle cx="15" cy="27.3529" r="2.64706" fill="#FFFCF5"/>
+<circle cx="27.3529" cy="27.3529" r="2.64706" fill="#FFFCF5"/>
 </svg>

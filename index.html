@@ -8,7 +8,9 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
 
-	<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400&family=Raleway&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" type="text/css" href="grid.css">
@@ -17,26 +19,22 @@
 </head>	
 	
 <body>
-
-	<nav>
-		<h2 id="logo">Katalin Beron</h2>
+	<div style="display: flex; justify-content: flex-end; background-color: #181818; padding: 1.5em; position: sticky; top: 0;">
 		<img id="menu" src="icon-menu.svg" style="height: 25px; cursor: pointer;" alt="Menu button">
-	
-	</nav>
-
-	<div id="home" style="text-align: center; position: relative;">
-		<h1 style="position: absolute; top: 50%; left: 0; right: 0; margin: auto; font-size: 6vw; letter-spacing: 0.5em; color: #FFFCF5;">PORTFOLIO</h1>
 	</div>
-
+	<h2 id="logo">KATALIN BERON</h2>	
+	<div id="home">
+		<div style="text-align: center;">
+			<img src="portfolio_font.svg">
+		</div>		
+	</div>	
 <main>
  
 <div id="portfolio">
-
 	<div style="padding: 2em 0;">
-		<h3 style="font-family: Raleway, sans-serif; font-size: 14px; text-align: center;">SCROLL</h3>
+		<h3 style="font-size: 14px; text-align: center;">SCROLL</h3>
 		<div class="vertical-line"></div>
 	</div>
-
 	<div class="row">
 		<div class="col-12 wrap flex">
 			<div class="col-6 flex">
@@ -163,12 +161,12 @@
 <div id="about">
 	<div class="row">
 		<div class="col-12">
-				<div class="col-9">
-					<div class="col-3">
-						<h1 style="color: #2FE5E8; text-align: left; font-size: 6vw; letter-spacing: 0.5em;">ABO<br>UT</h1>
-					</div>
-					<p>Designer coming from a Graphic Art and Front End Engineer background. My aim is to join my different skillsets together, and create beautiful experiences for the web. <br><br>I'm excited about exploring the possibilities in UI/UX design, and getting familiar with more technologies. I'm always curious about new ideas and opportunities, and passionate about learning! <br><br>Currently London based.</p>
-				</div>		
+			<div class="col-4">
+				<h1>ABO<br>UT</h1>
+			</div>				
+			<div class="col-8">
+				<p>Designer coming from a Graphic Art and Front End Engineer background. My aim is to join my different skillsets together, and create beautiful experiences for the web. <br><br>I'm excited about exploring the possibilities in UI/UX design, and getting familiar with more technologies. I'm always curious about new ideas and opportunities, and passionate about learning! <br><br>Currently London based.</p>
+			</div>
 		</div>
 	</div>
 </div>
@@ -196,11 +194,8 @@
 </div>
 
 <footer>
-	<span>
-		<p class="copyright">© 2022 KATALIN BERON</p>
-	</span>	
-	<span>Cover photo by <a href="https://unsplash.com/@danesduet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Daniel Olah</a> on <a href="https://unsplash.com/@danesduet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
-	</span>
+	<h4 class="copyright">© 2022 KATALIN BERON</h4>
+	<h4>Cover photo by <a href="https://unsplash.com/@danesduet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Daniel Olah</a> on <a href="https://unsplash.com/@danesduet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a></h4>
 </footer>
 
 </main>
