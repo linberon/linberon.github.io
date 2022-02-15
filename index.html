@@ -161,6 +161,7 @@
 <div id="about">
 	<div class="row">
 		<div class="col-12">
+			<div style="border-top: 1px solid #FFFCF5; width: 30vw; margin: 0 auto 90px auto;"></div>
 			<div class="col-4">
 				<h1>ABO<br>UT</h1>
 			</div>				
@@ -172,25 +173,45 @@
 </div>
 
 <div id="contact">
-	<div id="form-container">
+	<div id="form-container" class="row">
+		<div class="col-12 flex" style="flex-direction: column;">
+			<div class="flex" style="justify-content: space-between; padding-bottom: 45px;">
+				<img src="stamp.svg" alt="Postal stamp with text saying 'Send a pigeon'.">
+				<div class="social-icons">
+					<a href="https://linkedin.com/in/katalin-beron-284811160" class="fa fa-linkedin" target="_blank"></a>
+					<a href="https://github.com/linberon" class="fa fa-github" target="_blank"></a>
+					<a href="https://www.behance.net/linberon" class="fa fa-behance" target="_blank"></a>			
+				</div>
+			</div>
+			<form style="display: flex; flex-direction: column; row-gap: 45px; align-self: flex-end;" id="contactForm" action="https://mailthis.to/katalinberon" method="POST" enctype="multipart/form-data">
+				<div class="flex" style="align-items: flex-end; align-self: flex-end;">
+					<label class="label" for="name">NAME</label>		
+					<input class="input-field" id="name" type="text" name="name" required></input>
+				</div>
 
-		<form id="contactForm" action="https://mailthis.to/katalinberon" method="POST" enctype="multipart/form-data">			
-			<input class="text-field" id="name" type="text" name="name" placeholder="Name" required></input>
-			<input class="text-field" id="email" name="_replyto" placeholder="Email" required></input>
-			<textarea rows="10" class="text-field" id="message" name="message" placeholder="Your message here" required></textarea>
-			<input type="hidden" name="_subject" value="Message from my homepage">
-			<input type="hidden" name="_honeypot" value="">
-			<input type="hidden" name="_confirmation" value="Your message has been sent! I'll be in touch soon.">
-			<button class="send-message" type="submit">Send message</button>
-		</form>
+				<div class="flex" style="align-items: flex-end; align-self: flex-end;">
+					<label class="label" for="email">EMAIL</label>
+					<input class="input-field" id="email" name="_replyto" required></input>
+				</div>
 
+				<div class="flex"  style="align-items: flex-start;">
+					<label class="label" for="message">MESSAGE</label>
+					<textarea rows="10" class="input-field-msg" id="message" name="message" required></textarea>
+				</div>
+
+				<input type="hidden" name="_subject" value="Message from my homepage">
+				<input type="hidden" name="_honeypot" value="">
+				<input type="hidden" name="_confirmation" value="Your message has been sent! I'll be in touch soon.">
+
+				
+			</form><div class="flex" style="justify-content: space-between; align-items: flex-end; padding-top: 45px;">
+					<img src="page_top.svg" id="page-top-btn" alt="Page top button">
+					<button class="send-message" type="submit">SEND MESSAGE</button>
+				</div>
+		</div>
 	</div>
 
-		<div class="social-icons">
-			<a href="https://www.behance.net/linberon" class="fa fa-behance" target="_blank"></a>
-			<a href="https://linkedin.com/in/katalin-beron-284811160" class="fa fa-linkedin" target="_blank"></a>
-			<a href="https://github.com/linberon" class="fa fa-github" target="_blank"></a>
-		</div>
+		
 </div>
 
 <footer>
