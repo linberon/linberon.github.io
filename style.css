@@ -45,15 +45,13 @@ body {
 	font-size: 20px;
 	color: #FFFCF5;
 	margin: 0 auto;
-	text-align: center;
+	display: inline-block;
+	left: 50%;
+    transform: translate(-50%);
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
 	top: 1em;
 }
-
-
-
-
 
 .menu-overlay {
 	background-color: #FFFCF5;
