@@ -20,45 +20,30 @@
 	
 <body>
 
-
-
-
-
-
-
-<div id="example-menu">
-	<input type="checkbox" id="menu-toggle"/>
-	<ul>
-	  <li>
-		<a href="#">HOME</a>
-	  </li>
-	  <li>
-		<a href="#">WORK</a>
-	  </li>
-	  <li>
-		<a href="#">ABOUT</a>
-	  </li>
-	</ul>
-  </div>
-
-
-
-
-
-
-
-
-
-
-	<div style="display: flex; justify-content: flex-end; background-color: #181818; padding: 1.5em; position: sticky; top: 0;">
-		<img id="menu" src="icon-menu.svg" style="height: 25px; cursor: pointer;" alt="Menu button">
+	<div class="menu" style="display: flex; justify-content: flex-end; background-color: #181818; padding: 1.5em; position: sticky; top: 0;">
+		<img class="icon-menu" src="icon-menu.svg" style="height: 25px; cursor: pointer;" alt="Menu button">
 	</div>
+
+	<div class="menu-overlay">
+		<img class="icon-close" src="icon-close.svg" style="height: 25px; cursor: pointer;" alt="Menu button">
+		<nav class="navigation">
+		  <ul class="menu-links flex">
+			<li><a class="nav-link" href="#">HOME</a></li>
+			<li><a class="nav-link" href="#">WORK</a></li>
+			<li><a class="nav-link" href="#">ABOUT</a></li>
+			<li><a class="nav-link" href="#">CONTACT</a></li>
+			<li><a class="nav-link" href="#">SHARE</a></li>
+		  </ul>
+		</nav>
+	  </div>
+
 	<h2 id="logo">KATALIN BERON</h2>	
 	<div id="home">
 		<div style="text-align: center;">
 			<img style="width: 70vw;" src="portfolio_font.svg">
 		</div>		
-	</div>	
+	</div>
+
 <main>
  
 <div id="portfolio">
@@ -237,7 +222,7 @@
 				
 			</form><div class="flex" style="justify-content: space-between; align-items: flex-end; padding-top: 45px;">
 					<img src="page_top.svg" id="page-top-btn" alt="Page top button">
-					<button class="send-message" type="submit">SEND MESSAGE</button>
+					<button class="submit-btn" type="submit">SUBMIT</button>
 				</div>
 		</div>
 	</div>
@@ -252,7 +237,7 @@
 
 </main>
 
-	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="app.js"></script>
 
 </body>

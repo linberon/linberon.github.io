@@ -11,3 +11,16 @@ $(".navbar").click(function(e) {
 		600
 	);
 });
+
+//menu toggle
+
+$(document).ready(function() {
+
+	$(".icon-menu").on("click", function(){
+		$(".menu-overlay").addClass("open");
+		});
+
+	$(".icon-close").on("click", function(){
+		$(".menu-overlay").removeClass("open");
+		});
+  });
