@@ -4,7 +4,7 @@
 
 
 
-/* Extra small devices (phones, 600px and down)
+ /* Extra small devices (phones, 600px and down)
 @media only screen and (max-width: 600px) {...}
 /* Small devices (portrait tablets and large phones, 600px and up)
 @media only screen and (min-width: 600px) {...}
@@ -39,6 +39,10 @@ body {
 	height: 50vh;
 }
 
+#img-portfolio {
+	width: 60vw;
+}
+
 #logo {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
@@ -51,6 +55,7 @@ body {
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
 	top: 1em;
+	margin-bottom: 20px;
 }
 
 .menu-overlay {
@@ -89,10 +94,6 @@ body {
 
   ul {
     list-style: none;
-}
-
-li {
-    
 }
 
 a {
@@ -272,6 +273,10 @@ form {
 	.menu {
 		display: block;
 		cursor: pointer;
+	}
+
+	#img-portfolio {
+		width: 80vw;
 	}
 
 }
