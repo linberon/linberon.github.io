@@ -98,8 +98,8 @@ body {
 
 a {
 	text-decoration: none;
-	cursor: pointer;
 	color: inherit;
+	cursor: default;
 }
 
 /*a:hover {
@@ -160,7 +160,6 @@ p {
 	margin-top: 90px;
 	justify-content: space-between;
 	flex-direction: column;
-	cursor: pointer;
 }
 
 .project-left-col {
@@ -238,10 +237,6 @@ form {
 	display: table;
 }
 
-#page-top-btn {
-	cursor: pointer;
-}
-
 .submit-btn {
 	background-color: #181818;
 	border: none;
@@ -250,10 +245,7 @@ form {
 	font-size: 14px;
 	padding: 8px 16px;
 	color: #FFFCF5;
-}
-
-.submit-btn:hover {
-	cursor: pointer;
+	align-self: flex-start;
 }
 
 @media screen and (max-width: 640px) {
@@ -272,7 +264,6 @@ form {
 
 	.menu {
 		display: block;
-		cursor: pointer;
 	}
 
 	#img-portfolio {
