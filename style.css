@@ -72,27 +72,40 @@ body {
 	visibility: hidden;
   }
   
-  .menu-overlay.open {
+.menu-overlay.open {
 	opacity: 1;
 	visibility: visible;
 	top: 0;
   }
 
-  .navigation {
+.navigation {
 	justify-content: flex-start;
     text-align: left;
 	margin: 45px;
   }
 
-  .menu-links {
+.menu-links {
 	  flex-direction: column;
 	  text-align: left;
 	  row-gap: 45px;
 	  font-family: 'Montserrat', sans-serif;
 	  font-size: 20px;
   }
+  
+  .interactive:hover {
+	opacity: .4;
+}
 
-  ul {
+#page-top-btn {
+	transition: .5s;
+}
+
+#page-top-btn:hover {
+	transform: translate(0, -4px);
+	transition: .5s;
+}
+
+ul {
     list-style: none;
 }
 
@@ -101,10 +114,6 @@ a {
 	color: inherit;
 	cursor: default;
 }
-
-/*a:hover {
-	opacity: 0.8;
-}*/
 
 #about {
 	display: flex;
